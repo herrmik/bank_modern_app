@@ -3,5 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'https://herrmik.github.io/bank_modern_app/',
   plugins: [react()],
 });
